@@ -41,7 +41,7 @@ for i=1:15
 end
 
 disp(Sc1);
- 
+
 
 % 3
 
@@ -112,9 +112,9 @@ disp(round(sum(a9(1:15))));
 % 10
 
 P = 150000; i = 0.009; n = 15;
-A = P * (i) / (1 - (1+i)^(-n));  
-summa = n * A;                   
-korko = summa - P;    
+A = P * (i) / (1 - (1+i)^(-n));
+summa = n * A;
+korko = summa - P;
 
 disp(round(A));
 disp(round(summa));
