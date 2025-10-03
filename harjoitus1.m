@@ -11,9 +11,9 @@ disp(x);
 
 % 3
 
-a3=[];
+a3 = zeros(1,10);
 for n = 1:10
-a3(n) = 3*n+1;
+    a3(n) = 3*n+1;
 end
 disp(a3);
 
@@ -24,10 +24,7 @@ disp(a4);
 
 % 5
 
-syms n an(n)
-syms n bn(n)
-syms n cn(n)
-
+syms n an(n) bn(n) cn(n)
 an(n) = 3 - 0.8 .^ (n-1);
 bn(n) = 2 + 3/n;
 cn(n) = 1/n;
@@ -40,7 +37,7 @@ disp(alim);
 disp(blim);
 disp(clim);
 
-% 6 
+% 6
 
 a6 = 1 + 3*(1:20);
 disp(a6)
